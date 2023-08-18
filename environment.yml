@@ -1,0 +1,19 @@
+name: env_name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - accelerate
+    - requests
+    - matplotlib
+    - seaborn
+    - tqdm
+    - ipykernel
+    - torch
+    - torchvision
+    - wandb
