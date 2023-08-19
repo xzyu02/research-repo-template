@@ -9,6 +9,7 @@ dependencies:
   - pip
   - pip:
     - accelerate
+    - configargparse
     - requests
     - matplotlib
     - seaborn
