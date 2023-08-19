@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES="4" accelerate launch experiment_geo.py --lr 6e-6 --num_epochs 50000
+CUDA_VISIBLE_DEVICES="0" accelerate launch main.py --lr 1e-4 --num_epochs 10000
