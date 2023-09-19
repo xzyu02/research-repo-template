@@ -15,6 +15,18 @@ dependencies:
     - seaborn
     - tqdm
     - ipykernel
+    - tensorboard
     - torch
     - torchvision
+    - opencv-python
+    - scikit-learn
+    - scikit-image
+    - scikit-video
+    - scipy
     - wandb
+    # - cupy-cuda12x
+    # - geopandas
+    # - gdown
+    # - h5py
+    # - cmapy
+
