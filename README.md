@@ -14,12 +14,13 @@ conda activate <env_name>
 To install conda on your remote Linux server, please use the following commands:
 
 ```sh
-cd /tmp
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
 ```
 
-For local devices, please check the [official site](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html).
+For local devices, please check the [official site](https://docs.anaconda.com/free/miniconda/).
 
 ## Run Experiments
 ```
