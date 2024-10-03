@@ -24,6 +24,7 @@ dependencies:
     - openai
     - Pillow
     - pytest
+    - plotly
     - regex
     - requests
     - scikit-image
@@ -31,6 +32,7 @@ dependencies:
     - scikit-video
     - scipy
     - seaborn
+    - spacy
     - tensorboard
     - tokenizers
     - torch
