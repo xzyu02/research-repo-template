@@ -3,13 +3,15 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.11
   - numpy
   - pandas
   - pip
   - pip:
     - accelerate
     - configargparse
+    - datasets
+    - ffmpeg
     - requests
     - matplotlib
     - seaborn
@@ -18,12 +20,22 @@ dependencies:
     - tensorboard
     - torch
     - torchvision
+    - tokenizers
     - opencv-python
     - scikit-learn
     - scikit-image
     - scikit-video
     - scipy
+    - nltk
     - wandb
+    - transformers
+    - Pillow
+    - pytest
+    - kaggle
+    - openai
+    - regex
+    - numba
+    - huggingface_hub
     # - cupy-cuda12x
     # - geopandas
     # - gdown
