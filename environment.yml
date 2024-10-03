@@ -12,33 +12,32 @@ dependencies:
     - configargparse
     - datasets
     - ffmpeg
-    - requests
-    - matplotlib
-    - seaborn
-    - tqdm
+    - gdown
+    - geopandas
+    - huggingface_hub
     - ipykernel
-    - tensorboard
-    - torch
-    - torchvision
-    - tokenizers
-    - opencv-python
-    - scikit-learn
-    - scikit-image
-    - scikit-video
-    - scipy
+    - kaggle
+    - matplotlib
     - nltk
-    - wandb
-    - transformers
+    - numba
+    - opencv-python
+    - openai
     - Pillow
     - pytest
-    - kaggle
-    - openai
     - regex
-    - numba
-    - huggingface_hub
+    - requests
+    - scikit-image
+    - scikit-learn
+    - scikit-video
+    - scipy
+    - seaborn
+    - tensorboard
+    - tokenizers
+    - torch
+    - torchvision
+    - tqdm
+    - transformers
+    - wandb
     # - cupy-cuda12x
-    # - geopandas
-    # - gdown
     # - h5py
     # - cmapy
-
