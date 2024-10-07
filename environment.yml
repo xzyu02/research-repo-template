@@ -8,38 +8,49 @@ dependencies:
   - pandas
   - pip
   - pip:
+    # ML/DL
     - accelerate
-    - configargparse
     - datasets
-    - ffmpeg
-    - gdown
-    - geopandas
     - huggingface_hub
-    - ipykernel
     - kaggle
-    - matplotlib
+    - lightning
     - nltk
     - numba
     - opencv-python
     - openai
     - Pillow
-    - pytest
-    - plotly
-    - regex
-    - requests
     - scikit-image
     - scikit-learn
     - scikit-video
     - scipy
-    - seaborn
     - spacy
     - tensorboard
     - tokenizers
     - torch
     - torchvision
-    - tqdm
     - transformers
     - wandb
-    # - cupy-cuda12x
-    # - h5py
-    # - cmapy
+
+    # Visualization
+    - geopandas
+    - matplotlib
+    - plotly
+    - seaborn
+
+    # Web
+    - beautifulsoup4
+    - fastapi
+    - flask
+    - selenium
+
+    # Utilities
+    - configargparse
+    - ffmpeg
+    - flake8
+    - gdown
+    - ipykernel
+    - jupyter
+    - pytest
+    - regex
+    - requests
+    - tqdm
