@@ -1,4 +1,4 @@
-name: env_name
+name: default
 channels:
   - conda-forge
   - defaults
@@ -25,6 +25,7 @@ dependencies:
     - scipy
     - spacy
     - tensorboard
+    - tensorflow[and-cuda]
     - tokenizers
     - torch
     - torchvision
