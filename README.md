@@ -7,7 +7,7 @@ Repo Description here
 Please use following commands to setup environment:
 
 ```sh
-conda env create -f environment.yml
+PIP_EXISTS_ACTION=w conda env create -f environment.yml
 conda activate <env_name>
 ```
 
