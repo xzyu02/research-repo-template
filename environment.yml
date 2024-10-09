@@ -26,6 +26,7 @@ dependencies:
     - spacy
     - tensorboard
     - tensorflow[and-cuda]
+    - timm
     - tokenizers
     - torch
     - torchvision
