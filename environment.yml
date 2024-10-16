@@ -16,6 +16,7 @@ dependencies:
     - opencv-python
     - openai
     - pandas
+    - pillow
     - Pillow
     - scikit-learn
     - scipy
