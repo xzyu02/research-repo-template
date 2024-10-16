@@ -1,0 +1,11 @@
+name: env_py38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip:
+    - pandas
+    - numpy
+    - matplotlib
+    

@@ -1,11 +1,9 @@
-name: default_env
+name: env_default
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
-  - numpy
-  - pandas
+  - python=3.10
   - pip
   - pip:
     # ML/DL
@@ -16,8 +14,10 @@ dependencies:
     - lightning
     - nltk
     - numba
+    - numpy
     - opencv-python
     - openai
+    - pandas
     - Pillow
     - scikit-image
     - scikit-learn
@@ -32,6 +32,7 @@ dependencies:
     - torchvision
     - transformers
     - wandb
+    - xplique
 
     # Visualization
     - geopandas
