@@ -6,7 +6,6 @@ dependencies:
   - python=3.10
   - pip
   - pip:
-    # ML/DL
     - accelerate
     - datasets
     - huggingface_hub
@@ -29,8 +28,6 @@ dependencies:
     - transformers
     - wandb
     - matplotlib
-
-    # Utilities
     - configargparse
     - ffmpeg
     - flake8
