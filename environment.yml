@@ -38,3 +38,5 @@ dependencies:
     - regex
     - requests
     - tqdm
+    - schedulefree
+    - joblib
