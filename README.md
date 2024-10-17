@@ -17,7 +17,7 @@ pip install beautifulsoup4 fastapi lask selenium
 # visualization
 pip install geopandas plotly seaborn
 # more ml
-pip install tensorflow[and-cuda] scikit-video scikit-image xplique numba lightning
+pip install tensorflow[and-cuda] scikit-video scikit-image xplique numba lightning schedulefree accelerate
 ```
 
 To install conda on your remote Linux server, please use the following commands:
