@@ -25,6 +25,7 @@ dependencies:
     - tokenizers
     - torch
     - torchvision
+    - torchtext
     - transformers
     - wandb
     - matplotlib
