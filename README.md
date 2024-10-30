@@ -13,7 +13,7 @@ conda activate <env_name>
 
 ```sh
 # web
-pip install beautifulsoup4 fastapi lask selenium
+pip install beautifulsoup4 fastapi flask selenium
 # visualization
 pip install geopandas plotly seaborn
 # more ml
