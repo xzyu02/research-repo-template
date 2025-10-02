@@ -20,6 +20,8 @@ dependencies:
     - scikit-learn
     - scipy
     - spacy
+    - submitit
+    - schedulefree
     - tensorboard
     - timm
     - tokenizers
